@@ -1,0 +1,33 @@
+:host {
+  display: inline-flex;
+  height: 8rem;
+
+  div {
+    width: 8rem;
+    img {
+      height: 100%;
+      display: inline-block;
+      margin: 0 auto;
+    }
+    &.rare {
+      background: radial-gradient(ellipse at center, rgba(0,0,0,1) 0%, rgba(17, 85, 221, 1) 0%, rgba(17, 85, 221, 0) 67%, rgba(17, 85, 221, 0) 100%);
+      color: rgba(17, 85, 221, 1)
+    }
+    &.mythical {
+      background: radial-gradient(ellipse at center, rgba(0,0,0,1) 0%, rgba(136, 71, 255, 1) 0%, rgba(136, 71, 255, 0) 67%, rgba(136, 71, 255, 0) 100%);
+      color: rgba(136, 71, 255, 1)
+    }
+    &.legendary {
+      background: radial-gradient(ellipse at center, rgba(0,0,0,1) 0%, rgba(211, 44, 230, 1) 0%, rgba(211, 44, 230, 0) 67%, rgba(211, 44, 230, 0) 100%);
+      color: rgba(211, 44, 230, 1)
+    }
+    &.ancient {
+      background: radial-gradient(ellipse at center, rgba(0,0,0,1) 0%, rgba(235, 75, 75, 1) 0%, rgba(235, 75, 75, 0) 67%, rgba(235, 75, 75, 0) 100%);
+    }
+    &.exceedinglyrare {
+      background: radial-gradient(ellipse at center, rgba(0,0,0,1) 0%, rgba(202, 171, 5, 1) 0%, rgba(202, 171, 5, 0) 67%, rgba(202, 171, 5, 0) 100%);
+    }
+
+
+  }
+}

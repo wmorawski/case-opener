@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "paths": {
+      "@recruitee/recruitee/*": ["apps/recruitee/src/app/*"],
+      "@recruitee/recruitee/config/*": ["apps/recruitee/src/config/*"],
+      "@recruitee/recruitee/assets/*": ["apps/recruitee/src/assets/*"]
+    }
+  },
+  "exclude": ["./dist/libs", "./node_modules/*"]
+}

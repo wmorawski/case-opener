@@ -1,0 +1,8 @@
+<div class="container">
+  <ng-container *ngIf="case">
+    <te-case-box [items]="case.items"></te-case-box>
+  </ng-container>
+  <div>
+    <button [routerLink]="'/'">Go back</button>
+  </div>
+</div>

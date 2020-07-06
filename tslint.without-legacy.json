@@ -1,0 +1,23 @@
+{
+  "extends": "./tslint.json",
+  "linterOptions": {
+    "exclude": [
+      "./apps/recruitee/src/**/*.spec.ts",
+      "./apps/**/*.playground.ts",
+      "./libs/**/*.playground.ts",
+      "./apps/recruitee/src/guide/**/*.ts",
+      "./apps/recruitee/src/guide/*.ts",
+      "./apps/recruitee-e2e/**/*.ts",
+      "./apps/recruitee-e2e/*.ts",
+      "./dist/**/*.ts",
+
+      "./apps/recruitee/src/environments/environment.dev.ts",
+      "./apps/recruitee/src/environments/environment.staging.ts",
+      "./apps/recruitee/src/environments/environment.local.ts",
+      "./apps/recruitee/src/environments/environment.local-staging.ts",
+      "./apps/recruitee/src/test.ts",
+
+      "./apps/browser-extension/**/*"
+    ]
+  }
+}

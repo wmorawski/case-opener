@@ -1,0 +1,14 @@
+<div class="container">
+  <div class="pointer"></div>
+
+  <div class="items" #itemsElement>
+    <ng-container *ngIf="preparedCase">
+      <te-case-item
+        *ngFor="let item of preparedCase; let id = index; trackBy: trackByValue"
+        [item]="item"
+        [attr.id]="'item-' + id"
+      ></te-case-item>
+    </ng-container>
+  </div>
+</div>
+<div class="button" [ngClass]="{disabled: isOpening}" (click)="openCase()">Open case</div>

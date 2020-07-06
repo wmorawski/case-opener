@@ -1,0 +1,8 @@
+<div class="container">
+  <div class="header">{{case.name}}</div>
+  <img [src]="case.image" alt="" />
+  <div class="footer">
+    <div class="button" [routerLink]="['/case', case.name]">Open</div><span class="price">{{case.price / 100 | currency}}</span>
+  </div>
+
+</div>

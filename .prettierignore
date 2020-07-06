@@ -1,0 +1,10 @@
+# Add files here to ignore them from prettier formatting
+dist
+vendor
+utils/scaffolds
+webpack
+coverage
+*.md
+apps/browser-extension/src/app/locales
+apps/browser-extension/src/app_chrome/_locales
+apps/referrals/src/locales/*.json
